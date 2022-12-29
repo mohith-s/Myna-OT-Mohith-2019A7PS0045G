@@ -47,16 +47,16 @@ function App() {
 
       <div className="new-products row"> 
         <div className="new-prod col-lg-3 col-md-6">
-          <NewProducts image={Cake1} name="Choco lava cake" products={products}/>
+          <NewProducts image={Cake1} name="Choco lava cake" products={products} price="$ 5.25"/>
         </div>
         <div className="new-prod col-lg-3 col-md-6">
-          <NewProducts image={Cake2} name="Black forest" products={products}/>
+          <NewProducts image={Cake2} name="Black forest" products={products} price="$ 6.50"/>
         </div>
         <div className="new-prod col-lg-3 col-md-6">
-          <NewProducts image={Cake3} name="Vanilla cake" products={products}/>
+          <NewProducts image={Cake3} name="Vanilla cake" products={products} price="$ 3.00"/>
         </div>
         <div className="new-prod col-lg-3 col-md-6">
-          <NewProducts image={Cake4} name="Choco burst" products={products}/>
+          <NewProducts image={Cake4} name="Choco burst" products={products} price="$ 7.75"/>
         </div>
       </div>
 

@@ -20,6 +20,7 @@ function NewProducts(props) {
         <div className='prod-thumbnail' style={{margin:"auto",textAlign:"center", border:"1px #F8EDE3 solid", borderRadius:"25px"}}>
             <img src={props.image} style={{width:"250px", height:"250px", borderTopLeftRadius:"25px", borderTopRightRadius:"25px"}}/>
             <h4 style={{marginTop:"10px", fontFamily:"'Roboto Slab', serif"}}>{props.name}</h4>
+            <h3 style={{fontFamily:"'Montserrat', sans-serif"}}>{props.price}</h3>
             <button 
                 onClick={() => {
                     onClickButtonHandler();
